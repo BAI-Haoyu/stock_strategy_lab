@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-13",
+  "timezone": "Europe/Paris",
+  "yahoo": {
+    "symbols": [
+      "MSFT",
+      "AAPL",
+      "GOOGL"
+    ],
+    "rows": {
+      "MSFT": 501,
+      "AAPL": 501,
+      "GOOGL": 501
+    },
+    "removed": {
+      "MSFT": 0,
+      "AAPL": 0,
+      "GOOGL": 0
+    },
+    "last_date": "2026-11-12",
+    "evaluation_start": "2025-09-03",
+    "seconds": 4.25,
+    "metrics": {
+      "Course golden cross": {
+        "Total return": 0.0602513293,
+        "CAGR": 0.0503514804,
+        "Annual volatility": 0.0391360132,
+        "Sharpe (rf 0%)": 1.2711492145,
+        "Max drawdown": -0.0174457151,
+        "Ending value": 10602.5132932708
+      },
+      "SMA trend": {
+        "Total return": 0.0602513293,
+        "CAGR": 0.0503514804,
+        "Annual volatility": 0.0391360132,
+        "Sharpe (rf 0%)": 1.2711492145,
+        "Max drawdown": -0.0174457151,
+        "Ending value": 10602.5132932708
+      },
+      "RSI reversion": {
+        "Total return": 0.1794309852,
+        "CAGR": 0.1486301537,
+        "Annual volatility": 0.1290019239,
+        "Sharpe (rf 0%)": 1.1358083725,
+        "Max drawdown": -0.1088593346,
+        "Ending value": 11794.3098524209
+      },
+      "Buy and hold": {
+        "Total return": 0.2799957407,
+        "CAGR": 0.2303203065,
+        "Annual volatility": 0.1975835109,
+        "Sharpe (rf 0%)": 1.1447015635,
+        "Max drawdown": -0.1708085554,
+        "Ending value": 12799.9574067008
+      }
+    }
+  },
+  "demo": {
+    "seconds": 1.58,
+    "start": "2023-10-06",
+    "end": "2026-06-12",
+    "metrics": {
+      "Course golden cross": {
+        "Total return": 0.3072226706,
+        "CAGR": 0.1050042796,
+        "Annual volatility": 0.0289180828,
+        "Sharpe (rf 0%)": 3.3501592512,
+        "Max drawdown": -0.0086081561,
+        "Ending value": 13072.226705781
+      },
+      "SMA trend": {
+        "Total return": 0.3072226706,
+        "CAGR": 0.1050042796,
+        "Annual volatility": 0.0289180828,
+        "Sharpe (rf 0%)": 3.3501592512,
+        "Max drawdown": -0.0086081561,
+        "Ending value": 13072.226705781
+      },
+      "RSI reversion": {
+        "Total return": -0.4223954796,
+        "CAGR": -0.1849978667,
+        "Annual volatility": 0.0561879437,
+        "Sharpe (rf 0%)": -3.4871325133,
+        "Max drawdown": -0.4299073672,
+        "Ending value": 5776.0452042779
+      },
+      "Buy and hold": {
+        "Total return": 0.1220476077,
+        "CAGR": 0.0438531587,
+        "Annual volatility": 0.088612051,
+        "Sharpe (rf 0%)": 0.5120787278,
+        "Max drawdown": -0.3650724152,
+        "Ending value": 11220.4760772861
+      }
+    }
+  },
+  "test_summary": "All 29 automated checks passed, including input limits, cost arithmetic, allocation, next-open fills, future-data independence, missing-data alignment, currency rejection, session isolation and Streamlit save/restore. No ten-person usability study or concurrency load test has been performed.",
+  "yahoo_summary": "Live Yahoo verification succeeded for MSFT, AAPL and GOOGL: 501 shared daily observations over the requested two-year history, ending 2026-11-12. This verifies one three-stock request, not 20-stock provider capacity.",
+  "time_summary": "The recorded AI-assisted build began at 04:35 CET on 13 November 2026; code and test evidence were completed within one hour, below the three-hour limit. This is a bounded development-session record, not a measured productivity comparison."
+}
